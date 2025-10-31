@@ -10,7 +10,7 @@ int main(){
     else if (punkty >= 70 && punkty <= 84 )cout << "ocena dobra";
     else if (punkty >= 50 && punkty <= 69 )cout << "ocena dostateczna";
     else if (punkty >= 0 && punkty <= 49 )cout << "ocena niedosateczna";
-    else if (punkty < 0 || punkty > 100 )cout << "blod, zakres od 0 do 100, wpisales: "<< punkty;
+    else (punkty < 0 || punkty > 100 )cout << "blod, zakres od 0 do 100, wpisales: "<< punkty;
     
     return 0;
 }
