@@ -9,11 +9,12 @@ int main(){
 	int b; 
     cin >> b ;
     
-    cout << "\nsuma:" << a+b ;
-	cout << "\nroznica:" << a-b;
-	cout << "\niloczyn:" << a*b;
-	cout << "\n\niloraz:" << a/b;
-	cout << "\nreszta:" <<a%b;;
+    int c = a+b;
+    
+	cout << "\nsuma:" << c ;
 	
-    return 0;
+	
+	if(c%2 == 0)cout << "\nliczba parzysta"; else cout << "\nliczba nieparzysta";
+	
+	return 0;
 }
