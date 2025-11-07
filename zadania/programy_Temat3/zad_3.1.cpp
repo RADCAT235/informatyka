@@ -33,10 +33,6 @@ int main(){
 			case '/':
 				cout << "\nwynik: " << a/b;	
 				break;
-			
-			default:
-				cout << "blod, zly znak!";
-				break;
 		}
 	}
 	else cout << "blod, zly znak";
