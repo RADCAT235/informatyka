@@ -10,7 +10,7 @@ int main(){
 		cin >> tablica[i];
 	}
 	
-	int suma = 0;
+	float suma = 0;
 
 	for (int i = 0; i < 5; i++){
 		suma += tablica[i];
