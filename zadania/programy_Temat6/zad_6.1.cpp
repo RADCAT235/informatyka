@@ -2,21 +2,22 @@
 using namespace std;
 int main(){
 	
-	int tablica[5];
+	cout << "podaj ilosc liczb: ";
+	int N;
+	cin >> N;
 	
-	cout << "Podaj 5 liczb calkowitych:\n";
-	for (int i = 0; i < 5; i++) {
+	int tablica[N];
+	int suma = 0;
+	
+	cout << "Podaj ">> N >>" liczb calkowitych:\n";
+	
+	for (int i = 0; i < N; i++) {
 		cout << "Podaj liczbe nr " << i + 1 << ": ";
 		cin >> tablica[i];
-	}
-	
-	int suma = 0;
-
-	for (int i = 0; i < 5; i++){
 		suma += tablica[i];
 	}
 	
-	cout << "\nsrednia wynosi: " << suma/5 << endl;
+	cout << "\nsrednia wynosi: " << suma/N << endl;
 
 
 }
