@@ -9,7 +9,7 @@ int main(){
 	for (int i = 0; i < 5; i++) {
 		cout << "Podaj liczbe nr " << i + 1 << ": ";
 		cin >> tablica[i];
-  suma += tablica[i];
+      suma += tablica[i];
 	}
 
 	cout << "\nsrednia wynosi: " << suma/5 << endl;
